@@ -9,9 +9,10 @@ with open('box_office.csv', 'w', newline='') as file:
 
     base_url = "https://www.boxofficemojo.com/"
 
-    # this is the url where the list starts
+    #the url where the list starts
     url = "https://www.boxofficemojo.com/chart/top_lifetime_gross/?area=XWW"
 
+    #loop through pages until we no longer find the 'next' button
     while True:
         # get request the html page, parse the page using BeautifulSoup
         page = requests.get(url)
