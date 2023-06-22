@@ -34,13 +34,17 @@ with open('box_office.csv', 'w', newline='') as file:
         # loop through all table rows to parse out the rank, title and revenue based on element and class
         # slices first row headers
         for row in rows[1:]:
+            id = row.find("td", class_="mojo-field-type-title").find("a")['href'][7:15]
             rank = row.find("td", class_="mojo-field-type-rank").text.strip()
             title = row.find("td", class_="mojo-field-type-title").text.strip()
             revenue = row.find("td", class_="mojo-field-type-money").text.strip()
             for i in ['"','$',',']:
                 revenue = revenue.replace(i,"")
-            writer.writerow([rank, title, revenue])
+            writer.writerow([id, rank, title, revenue])
         try:
             url = base_url + soup.find("li", class_='a-last').find("a")['href']
         except TypeError:
             break
+
+
+
