@@ -54,14 +54,7 @@ keywords = jsonSoup["keywords"].split(",") #this is a list
 people = []
 for i in zip(cast,castId):
     people.append([i[1][-10:-1],i[0]]) 
-aggregateRating = jsonSoup["aggregateRating"]["ratingValue"]
-description = jsonSoup["description"] 
-numRatings = jsonSoup["aggregateRating"]["ratingCount"]
-director = createList(jsonSoup['director'],'name') #this could be a list
-duration = jsonSoup["duration"]
-contentRating = jsonSoup["contentRating"]
-datePublished = jsonSoup["datePublished"]
-keywords = jsonSoup["keywords"].split(",") #this is a list
+
 
 
 
