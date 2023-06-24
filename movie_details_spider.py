@@ -2,9 +2,14 @@ import requests
 import csv
 import json
 import time
+from re import search
 from bs4 import BeautifulSoup
 
 #function defs
+def parseId(string):
+    regex = r'[a-zA-Z]{2}\d{6,}'
+    return search(regex,string).group(0)
+
 def createList(dict, key):
     '''
     Provided a dictionary object and a key
@@ -22,7 +27,7 @@ def addPerson(person,id,role):
     '''
     for i in zip(person,id):
         #parse the id from the url
-        personId = i[1][-10:-1]
+        personId = parseId(i[1])
         name = i[0]
         people.append([personId,name,role,titleId])
 
@@ -53,7 +58,7 @@ HEADERS = {'User-Agent': 'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWeb
 
 #open our top 1000 movies csv and read it in
 with open('box_office.csv',"r") as file:
-    movies = list(csv.reader(file))[1:11]
+    movies = list(csv.reader(file))[1:2]
 
     #loop over movies, get id slug and use it to scrape their detail page
     for movie in movies: #just doing first 5 for debugging
