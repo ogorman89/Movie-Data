@@ -5,7 +5,8 @@ from bs4 import BeautifulSoup
 # start a csv file and provide headers
 with open('box_office.csv', 'w', newline='') as file:
     writer = csv.writer(file)
-    field = ["rank", "title", "revenue"]
+    field = ["id","rank", "title", "revenue"]
+    writer.writerow(['title_id', 'rank', 'title', 'lifetime_revenue'])
 
     base_url = "https://www.boxofficemojo.com/"
 
