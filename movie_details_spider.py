@@ -58,7 +58,7 @@ HEADERS = {'User-Agent': 'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWeb
 
 #open our top 1000 movies csv and read it in
 with open('box_office.csv',"r") as file:
-    movies = list(csv.reader(file))[1:2]
+    movies = list(csv.reader(file))[1:]
 
     #loop over movies, get id slug and use it to scrape their detail page
     for movie in movies: #just doing first 5 for debugging
@@ -77,7 +77,6 @@ with open('box_office.csv',"r") as file:
         #items for the 'title_details' table
         aggregateRating = jsonSoup["aggregateRating"]["ratingValue"]
         description = jsonSoup["description"]
-        description = description.replace('"','') #some descriptions encased in quotation marks
         numRatings = jsonSoup["aggregateRating"]["ratingCount"]
         duration = jsonSoup["duration"]
         contentRating = jsonSoup["contentRating"]
