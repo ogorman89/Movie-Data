@@ -43,7 +43,7 @@ with open('box_office.csv', 'w', newline='') as file:
             writer.writerow([id, rank, title, revenue])
         try:
             url = base_url + soup.find("li", class_='a-last').find("a")['href']
-        except TypeError:
+        except TypeError: #break when we can no longer find next button
             break
 
 
