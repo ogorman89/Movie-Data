@@ -1,11 +1,10 @@
-title_id,rank,title,lifetime_revenue
 tt0499549,1,Avatar,2923706026
 tt4154796,2,Avengers: Endgame,2799439100
 tt1630029,3,Avatar: The Way of Water,2320250281
 tt0120338,4,Titanic,2264743305
 tt2488496,5,Star Wars: Episode VII - The Force Awakens,2071310218
 tt4154756,6,Avengers: Infinity War,2052415039
-tt10872600,7,Spider-Man: No Way Home,1921847111
+tt1087260,7,Spider-Man: No Way Home,1921847111
 tt0369610,8,Jurassic World,1671537444
 tt6105098,9,The Lion King,1663075401
 tt0848228,10,The Avengers,1520538536
@@ -16,7 +15,7 @@ tt2395427,14,Avengers: Age of Ultron,1405018048
 tt1825683,15,Black Panther,1349926083
 tt1201607,16,Harry Potter and the Deathly Hallows: Part 2,1342359942
 tt2527336,17,Star Wars: Episode VIII - The Last Jedi,1334407706
-tt6718170,18,The Super Mario Bros. Movie,1329930524
+tt6718170,18,The Super Mario Bros. Movie,1330114078
 tt4881806,19,Jurassic World: Fallen Kingdom,1310466296
 tt2294629,20,Frozen,1284540518
 tt2771200,21,Beauty and the Beast,1266115964
@@ -50,7 +49,7 @@ tt1014759,48,Alice in Wonderland,1025468216
 tt0241527,49,Harry Potter and the Sorcerer's Stone,1023842938
 tt0903624,50,The Hobbit: An Unexpected Journey,1017030651
 tt0468569,51,The Dark Knight,1006234167
-tt8041270,52,Jurassic World Dominion,1001978080
+tt8041270,52,Jurassic World: Dominion,1001978080
 tt2283362,53,Jumanji: Welcome to the Jungle,995339117
 tt0926084,54,Harry Potter and the Deathly Hallows: Part 1,977070383
 tt1690953,55,Despicable Me 2,970766005
@@ -68,7 +67,7 @@ tt0417741,66,Harry Potter and the Half-Blood Prince,934519387
 tt0298148,67,Shrek 2,928760770
 tt0295297,68,Harry Potter and the Chamber of Secrets,925668380
 tt1727824,69,Bohemian Rhapsody,910809311
-tt13462900,70,The Battle at Lake Changjin,902548476
+tt1346290,70,The Battle at Lake Changjin,902548476
 tt0120737,71,The Lord of the Rings: The Fellowship of the Ring,898204420
 tt0330373,72,Harry Potter and the Goblet of Fire,896815106
 tt0413300,73,Spider-Man 3,894983373
@@ -89,10 +88,10 @@ tt1270797,87,Venom,856085151
 tt3501632,88,Thor: Ragnarok,855301806
 tt1673434,89,The Twilight Saga: Breaking Dawn - Part 2,848593948
 tt1055369,90,Transformers: Revenge of the Fallen,836303693
-tt6791350,91,Guardians of the Galaxy Vol. 3,825371739
-tt0145487,92,Spider-Man,825025036
+tt0145487,91,Spider-Man,825025036
+tt6791350,92,Guardians of the Galaxy Vol. 3,823828079
 tt0451279,93,Wonder Woman,822854286
-tt13364790,94,"Hi, Mom",822009764
+tt1336479,94,"Hi, Mom",822009764
 tt0116629,95,Independence Day,817400891
 tt2380307,96,Coco,814337054
 tt3183660,97,Fantastic Beasts and Where to Find Them,814044001
@@ -113,7 +112,7 @@ tt2382320,111,No Time to Die,774153007
 tt0816692,112,Interstellar,773430538
 tt2015381,113,Guardians of the Galaxy,773350147
 tt1877830,114,The Batman,770962583
-tt10648342,115,Thor: Love and Thunder,760928081
+tt1064834,115,Thor: Love and Thunder,760928081
 tt6806448,116,Fast & Furious Presents: Hobbs & Shaw,760732926
 tt0382625,117,The Da Vinci Code,760006945
 tt1587310,118,Maleficent,759853685
@@ -128,7 +127,7 @@ tt0363771,126,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",7
 tt1453405,127,Monsters University,743559645
 tt0234215,128,The Matrix Reloaded,741847937
 tt1049413,129,Up,735099102
-tt10627720,130,Ne Zha,726264074
+tt1062772,130,Ne Zha,726264074
 tt5433138,131,F9: The Fast Saga,726229501
 tt1843866,132,Captain America: The Winter Soldier,714421503
 tt1324999,133,The Twilight Saga: Breaking Dawn - Part 1,712205856
@@ -142,10 +141,10 @@ tt1325004,140,The Twilight Saga: Eclipse,698509825
 tt1229238,141,Mission: Impossible - Ghost Protocol,694713380
 tt0795421,142,Mamma Mia!,694476782
 tt1392170,143,The Hunger Games,694394724
-tt10370822,144,Detective Chinatown 3,686257563
+tt1037082,144,Detective Chinatown 3,686257563
 tt2381249,145,Mission: Impossible - Rogue Nation,682716636
 tt3521164,146,Moana,682685900
-tt5433140,147,Fast X,678629064
+tt5433140,147,Fast X,679140135
 tt0109830,148,Forrest Gump,678226465
 tt1211837,149,Doctor Strange,677796076
 tt0167404,150,The Sixth Sense,672806432
@@ -165,7 +164,7 @@ tt0441773,163,Kung Fu Panda,632083197
 tt0317705,164,The Incredibles,631607053
 tt3659388,165,The Martian,630620818
 tt0448157,166,Hancock,629443428
-tt16194408,167,Water Gate Bridge,626571697
+tt1619440,167,Water Gate Bridge,626571697
 tt1596343,168,Fast Five,626137675
 tt1228705,169,Iron Man 2,623933331
 tt0382932,170,Ratatouille,623726085
@@ -227,10 +226,10 @@ tt0910970,225,WALL·E,521311890
 tt2267968,226,Kung Fu Panda 3,521170825
 tt0103064,227,Terminator 2: Judgment Day,520881154
 tt0478970,228,Ant-Man,519311965
-tt9362722,229,Spider-Man: Across the Spider-Verse,512609552
-tt7097896,230,Venom: Let There Be Carnage,506863592
-tt0099653,231,Ghost,505703557
-tt0103639,232,Aladdin,504050219
+tt7097896,229,Venom: Let There Be Carnage,506863592
+tt0099653,230,Ghost,505703557
+tt0103639,231,Aladdin,504050219
+tt9362722,232,Spider-Man: Across the Spider-Verse,503365569
 tt0172495,233,Gladiator,503162313
 tt2357291,234,Rio 2,498781117
 tt0332452,235,Troy,497409852
@@ -251,16 +250,16 @@ tt1436562,249,Rio,483866772
 tt0120815,250,Saving Private Ryan,482349603
 tt1318514,251,Rise of the Planet of the Apes,481800873
 tt3915174,252,Puss in Boots: The Last Wish,480962287
-tt5971474,253,The Little Mermaid,477118356
-tt0099785,254,Home Alone,476684675
-tt0073195,255,Jaws,476512065
-tt10954600,256,Ant-Man and the Wasp: Quantumania,476071180
-tt2510894,257,Hotel Transylvania 2,475186706
-tt0086190,258,Star Wars: Episode VI - Return of the Jedi,475106177
-tt0367594,259,Charlie and the Chocolate Factory,474968763
-tt0097576,260,Indiana Jones and the Last Crusade,474171806
-tt2126355,261,San Andreas,474009154
-tt7349950,262,It Chapter Two,473122525
+tt0099785,253,Home Alone,476684675
+tt0073195,254,Jaws,476512065
+tt1095460,255,Ant-Man and the Wasp: Quantumania,476071180
+tt2510894,256,Hotel Transylvania 2,475186706
+tt0086190,257,Star Wars: Episode VI - Return of the Jedi,475106177
+tt0367594,258,Charlie and the Chocolate Factory,474968763
+tt0097576,259,Indiana Jones and the Last Crusade,474171806
+tt2126355,260,San Andreas,474009154
+tt7349950,261,It Chapter Two,473122525
+tt5971474,262,The Little Mermaid,472768383
 tt3783958,263,La La Land,471980202
 tt1772341,264,Wreck-It Ralph,471222889
 tt5034838,265,Godzilla vs. Kong,470116094
@@ -274,15 +273,15 @@ tt0100405,272,Pretty Woman,463406268
 tt0317219,273,Cars,461991867
 tt7294150,274,The Eight Hundred,461421559
 tt0376994,275,X-Men: The Last Stand,460435291
-tt14557302,276,Moon Man,460237662
+tt1455730,276,Moon Man,460237662
 tt0465234,277,National Treasure: Book of Secrets,459242249
 tt0117060,278,Mission: Impossible,457696391
 tt0416449,279,300,456082343
 tt0325710,280,The Last Samurai,454627263
-tt11032374,281,Demon Slayer the Movie: Mugen Train,453210959
+tt1103237,281,Demon Slayer the Movie: Mugen Train,453210959
 tt7362036,282,Dying to Survive,451183391
 tt0240772,283,Ocean's Eleven,450717150
-tt10147382,284,"My People, My Country",450064993
+tt1014738,284,"My People, My Country",450064993
 tt5884052,285,Pokémon: Detective Pikachu,449762638
 tt0800369,286,Thor,449326618
 tt0213149,287,Pearl Harbor,449220945
@@ -304,17 +303,17 @@ tt0246460,302,Die Another Day,431971116
 tt5113040,303,The Secret Life of Pets 2,431058542
 tt0162222,304,Cast Away,429632142
 tt2231461,305,Rampage,428028233
-tt10366206,306,John Wick: Chapter 4,427801036
+tt1036620,306,John Wick: Chapter 4,427834403
 tt0242653,307,The Matrix Revolutions,427344325
 tt1675434,308,The Intouchables,426588510
 tt1502397,309,Bad Boys for Life,426505244
 tt1853728,310,Django Unchained,426074373
 tt0101414,311,Beauty and the Beast,424967620
 tt0099348,312,Dances with Wolves,424208848
-tt12363162,313,"My People, My Homeland",422390820
+tt1236316,313,"My People, My Homeland",422390820
 tt0499448,314,The Chronicles of Narnia: Prince Caspian,419665568
 tt1000774,315,Sex and the City,418765519
-tt10218664,316,The Captain,417282021
+tt1021866,316,The Captain,417282021
 tt0120616,317,The Mummy,415933406
 tt0980970,318,The Chronicles of Narnia: The Voyage of the Dawn Treader,415686217
 tt4196776,319,Jason Bourne,415484914
@@ -334,7 +333,7 @@ tt0290334,332,X2: X-Men United,407711549
 tt4123432,333,Fantastic Beasts: The Secrets of Dumbledore,407150844
 tt1464335,334,Uncharted,407141258
 tt0993846,335,The Wolf of Wall Street,406878233
-tt12412888,336,Sonic the Hedgehog 2,405421518
+tt1241288,336,Sonic the Hedgehog 2,405421518
 tt0437086,337,Alita: Battle Angel,404980543
 tt0859163,338,The Mummy: Tomb of the Dragon Emperor,403449830
 tt1446714,339,Prometheus,403354469
@@ -562,19 +561,19 @@ tt0161081,560,What Lies Beneath,291420351
 tt2557478,561,Pacific Rim: Uprising,290930148
 tt0372183,562,The Bourne Supremacy,290835269
 tt1261945,563,Sex and the City 2,290745055
-tt5090568,564,Transformers: Rise of the Beasts,290426110
-tt0138097,565,Shakespeare in Love,289317794
-tt1840309,566,Divergent,288885818
-tt0094898,567,Coming to America,288752301
-tt3704428,568,Elvis,288670284
-tt0396269,569,Wedding Crashers,288485135
-tt4500922,570,Maze Runner: The Death Cure,288175335
-tt0112642,571,Casper,287928194
-tt0252866,572,American Pie 2,287553595
-tt2848292,573,Pitch Perfect 2,287144079
-tt0120689,574,The Green Mile,286801374
-tt1483013,575,Oblivion,286168572
-tt1535108,576,Elysium,286140700
+tt0138097,564,Shakespeare in Love,289317794
+tt1840309,565,Divergent,288885818
+tt0094898,566,Coming to America,288752301
+tt3704428,567,Elvis,288670284
+tt0396269,568,Wedding Crashers,288485135
+tt4500922,569,Maze Runner: The Death Cure,288175335
+tt0112642,570,Casper,287928194
+tt0252866,571,American Pie 2,287553595
+tt2848292,572,Pitch Perfect 2,287144079
+tt0120689,573,The Green Mile,286801374
+tt1483013,574,Oblivion,286168572
+tt1535108,575,Elysium,286140700
+tt5090568,576,Transformers: Rise of the Beasts,285538269
 tt0122151,577,Lethal Weapon 4,285444603
 tt0401729,578,John Carter,284139100
 tt1860353,579,Turbo,282570682
@@ -587,7 +586,7 @@ tt1194173,585,The Bourne Legacy,276144750
 tt0864835,586,Mr. Peabody & Sherman,275698039
 tt0267913,587,Scooby-Doo,275678613
 tt0443272,588,Lincoln,275293450
-tt11145118,589,Creed III,275248615
+tt1114511,589,Creed III,275195615
 tt0146316,590,Lara Croft: Tomb Raider,274703340
 tt1365519,591,Tomb Raider,274650803
 tt1320253,592,The Expendables,274470394
@@ -677,7 +676,7 @@ tt0119094,675,Face/Off,245676146
 tt3949660,676,Teenage Mutant Ninja Turtles: Out of the Shadows,245623848
 tt1077368,677,Dark Shadows,245527149
 tt0286716,678,Hulk,245285165
-tt10218674,679,The Bravest,245179562
+tt1021867,679,The Bravest,245179562
 tt1064932,680,Welcome to the Sticks,245144417
 tt0099088,681,Back to the Future Part III,245077583
 tt2120120,682,Pixels,244874809
@@ -695,12 +694,12 @@ tt2316204,693,Alien: Covenant,240891763
 tt3263904,694,Sully,240797623
 tt2094766,695,Assassin's Creed,240697856
 tt0389860,696,Click,240685326
-tt11177804,697,Legend of Deification,240646355
+tt1117780,697,Legend of Deification,240646355
 tt1691917,698,Planes,240171783
 tt1855325,699,Resident Evil: Retribution,240159255
 tt0099423,700,Die Hard 2,240031274
 tt0092493,701,Crocodile Dundee II,239606210
-tt12593682,702,Bullet Train,239268602
+tt1259368,702,Bullet Train,239268602
 tt3104988,703,Crazy Rich Asians,238843729
 tt0118688,704,Batman & Robin,238235719
 tt0347149,705,Howl's Moving Castle,237536126
@@ -747,7 +746,7 @@ tt3890160,745,Baby Driver,226945087
 tt1253864,746,Immortals,226904017
 tt0936501,747,Taken,226837760
 tt0814255,748,Percy Jackson & the Olympians: The Lightning Thief,226497209
-tt10298810,749,Lightyear,226425420
+tt1029881,749,Lightyear,226425420
 tt1428538,750,Hansel & Gretel: Witch Hunters,226349749
 tt2239822,751,Valerian and the City of a Thousand Planets,225973340
 tt0119217,752,Good Will Hunting,225933435
@@ -764,7 +763,7 @@ tt2024469,762,Non-Stop,222809600
 tt0097523,763,"Honey, I Shrunk the Kids",222724172
 tt0361596,764,Fahrenheit 9/11,222446882
 tt0120891,765,Wild Wild West,222104681
-tt15465312,766,"My Country, My Parents",221831086
+tt1546531,766,"My Country, My Parents",221831086
 tt1981128,767,Geostorm,221600160
 tt0100404,768,Presumed Innocent,221303188
 tt0870154,769,Jungle Cruise,220889446
@@ -782,8 +781,8 @@ tt0120794,780,The Prince of Egypt,218613188
 tt0790724,781,Jack Reacher,218340595
 tt0320661,782,Kingdom of Heaven,218122627
 tt4877122,783,The Emoji Movie,217776646
-tt15474916,784,Smile,217408513
-tt16254308,785,Too Cool to Kill,217254604
+tt1547491,784,Smile,217408513
+tt1625430,785,Too Cool to Kill,217254604
 tt0829150,786,Dracula Untold,217124280
 tt1489889,787,Central Intelligence,216972543
 tt0405159,788,Million Dollar Baby,216763646
@@ -791,7 +790,7 @@ tt1454029,789,The Help,216639112
 tt0096320,790,Twins,216614388
 tt0817230,791,Valentine's Day,216528528
 tt1284575,792,Bad Teacher,216197492
-tt12497408,793,A Little Red Flower,216000000
+tt1249740,793,A Little Red Flower,216000000
 tt2850386,794,The Croods: A New Age,215905815
 tt0109444,795,Clear and Present Danger,215887717
 tt0055254,796,One Hundred and One Dalmatians,215880014
@@ -827,7 +826,7 @@ tt1231583,825,Due Date,211780824
 tt0311113,826,Master and Commander: The Far Side of the World,211622535
 tt0339291,827,A Series of Unfortunate Events,211468235
 tt0097757,828,The Little Mermaid,211343479
-tt15783462,829,Nice View,211019042
+tt1578346,829,Nice View,211019042
 tt1136608,830,District 9,210888950
 tt0079574,831,Moonraker,210308099
 tt0230600,832,The Others,209947037
@@ -895,7 +894,7 @@ tt2459022,893,Lost in Thailand,197757387
 tt4575576,894,Christopher Robin,197744377
 tt1351685,895,Jack the Giant Slayer,197687603
 tt2398241,896,Smurfs: The Lost Village,197183546
-tt13696296,897,Chinese Doctors,197143218
+tt1369629,897,Chinese Doctors,197143218
 tt0338459,898,Spy Kids 3: Game Over,197101678
 tt0258000,899,Panic Room,197079546
 tt2203939,900,The Other Woman,196710396
@@ -918,9 +917,9 @@ tt6294822,916,The Post,193764664
 tt4591310,917,The Monkey King 2,193678298
 tt1179904,918,Paranormal Activity,193355800
 tt9426210,919,Weathering with You,192951441
-tt13320622,920,The Lost City,192907684
+tt1332062,920,The Lost City,192907684
 tt0455944,921,The Equalizer,192330738
-tt11210032,922,Sheep Without a Shepherd,191602146
+tt1121003,922,Sheep Without a Shepherd,191602146
 tt0101272,923,The Addams Family,191502426
 tt0398165,924,The Longest Yard,191466556
 tt0111070,925,The Santa Clause,190539357
@@ -940,7 +939,7 @@ tt2024544,938,12 Years a Slave,187733202
 tt0113277,939,Heat,187436818
 tt1396218,940,Mr. Popper's Penguins,187361754
 tt0391198,941,The Grudge,187281115
-tt16183464,942,One Piece Film: Red,187170704
+tt1618346,942,One Piece Film: Red,187170704
 tt0762107,943,I Now Pronounce You Chuck & Larry,187134117
 tt0119314,944,The Horse Whisperer,186883563
 tt0358273,945,Walk the Line,186797986
@@ -978,7 +977,7 @@ tt0112579,976,The Bridges of Madison County,182016617
 tt5237980,977,From Vegas to Macau III,181732879
 tt0409182,978,Poseidon,181674817
 tt0116313,979,The First Wives Club,181489203
-tt11448076,980,Cliff Walkers,181325565
+tt1144807,980,Cliff Walkers,181325565
 tt0331632,981,Scooby-Doo 2: Monsters Unleashed,181239132
 tt0102059,982,Hot Shots!,181096164
 tt0257044,983,Road to Perdition,181001478

@@ -1,5 +1,6 @@
 import requests
 import csv
+from re import search
 from bs4 import BeautifulSoup
 
 # start a csv file and provide headers
@@ -35,7 +36,9 @@ with open('box_office.csv', 'w', newline='') as file:
         # loop through all table rows to parse out the rank, title and revenue based on element and class
         # slices first row headers
         for row in rows[1:]:
-            id = row.find("td", class_="mojo-field-type-title").find("a")['href'][7:16]
+            href = row.find("td", class_="mojo-field-type-title").find("a")['href']
+            regex = r"[a-zA-Z]{2}\d{6,}"
+            id = search(regex,href).group(0)
             rank = row.find("td", class_="mojo-field-type-rank").text.strip()
             title = row.find("td", class_="mojo-field-type-title").text.strip()
             revenue = row.find("td", class_="mojo-field-type-money").text.strip()

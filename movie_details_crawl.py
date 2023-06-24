@@ -53,10 +53,10 @@ HEADERS = {'User-Agent': 'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWeb
 
 #open our top 1000 movies csv and read it in
 with open('box_office.csv',"r") as file:
-    movies = list(csv.reader(file))
+    movies = list(csv.reader(file))[1:11]
 
     #loop over movies, get id slug and use it to scrape their detail page
-    for movie in movies[1:6]: #just doing first 5 for debugging
+    for movie in movies: #just doing first 5 for debugging
         url = baseUrl + movie[0]
         titleId = movie[0]
     # url = 'https://www.imdb.com/title/'+ str(movies[0][0]) #this is for testing only
@@ -108,12 +108,9 @@ with open('box_office.csv',"r") as file:
         
         #outputting a status to the terminal
         print('\r'+ str(round(movies.index(movie)/len(movies)*100)) + "% complete",end='')
-        
+
         #10s time delay to avoid spamming request server
         time.sleep(10)
-
-        
-        
 
 #write results to csv
 writeCsv('people.csv',people)
