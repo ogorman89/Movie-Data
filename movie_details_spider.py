@@ -2,6 +2,7 @@ import requests
 import csv
 import json
 import time
+from random import randint
 from re import search
 from bs4 import BeautifulSoup
 
@@ -114,7 +115,7 @@ with open('box_office.csv',"r") as file:
         print('\r'+ str(round(movies.index(movie)/len(movies)*100)) + "% complete",end='')
 
         #10s time delay to avoid spamming request server
-        time.sleep(10)
+        time.sleep(randint(5,10))
 
 #write results to csv
 writeCsv('people.csv',people)
