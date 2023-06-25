@@ -84,59 +84,64 @@ with open('box_office.csv',"r") as file:
 
     #loop over movies, get id slug and use it to scrape their detail page
     for movie in movies: #just doing first 5 for debugging
-        url = baseUrl + movie[0]
-        titleId = movie[0]
-    # url = 'https://www.imdb.com/title/'+ str(movies[0][0]) #this is for testing only
+        try:
+            url = baseUrl + movie[0]
+            titleId = movie[0]
+            # url = 'https://www.imdb.com/title/'+ str(movies[0][0]) #this is for testing only
 
-        #request the page content for a given movie
-        page = requests.get(url,headers=HEADERS)
-        soup = BeautifulSoup(page.content, "html.parser")
+            #request the page content for a given movie
+            page = requests.get(url,headers=HEADERS)
+            soup = BeautifulSoup(page.content, "html.parser")
 
-        #get JSON soup for the movie
-        jsonSoup = json.loads(soup.find("script", type="application/ld+json").text)
+            #get JSON soup for the movie
+            jsonSoup = json.loads(soup.find("script", type="application/ld+json").text)
 
-        #parse target variables using json as source dict
-        #items for the 'title_details' table
-        aggregateRating = getElement(jsonSoup,"aggregateRating","ratingValue")
-        description = getElement(jsonSoup,"description")
-        numRatings = getElement(jsonSoup,"aggregateRating","ratingCount")
-        duration = getElement(jsonSoup,"duration")
-        contentRating = getElement(jsonSoup,"contentRating")
-        datePublished = getElement(jsonSoup,"datePublished")
+            #parse target variables using json as source dict
+            #items for the 'title_details' table
+            aggregateRating = getElement(jsonSoup,"aggregateRating","ratingValue")
+            description = getElement(jsonSoup,"description")
+            numRatings = getElement(jsonSoup,"aggregateRating","ratingCount")
+            duration = getElement(jsonSoup,"duration")
+            contentRating = getElement(jsonSoup,"contentRating")
+            datePublished = getElement(jsonSoup,"datePublished")
 
-        #convert duration string to minutes
-        duration = duration.split('H')
-        duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+            #convert duration string to minutes
+            duration = duration.split('H')
+            duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
 
-        #items for the 'genres' table
-        genre = getElement(jsonSoup,'genre')
-        for i in genre:
-            genres.append([titleId, i])
+            #items for the 'genres' table
+            genre = getElement(jsonSoup,'genre')
+            for i in genre:
+                genres.append([titleId, i])
 
-        #append movie details to the movie_details list
-        title_details.append([titleId, aggregateRating, description, numRatings, 
-                            duration, contentRating, datePublished])
+            #append movie details to the movie_details list
+            title_details.append([titleId, aggregateRating, description, numRatings, 
+                                duration, contentRating, datePublished])
 
-        #items for the 'keywords' table
-        keywordItems = getElement(jsonSoup,"keywords").split(",") #this is a list
-        for i in keywordItems:
-            keywords.append([titleId, i])
+            #items for the 'keywords' table
+            keywordItems = getElement(jsonSoup,"keywords").split(",") #this is a list
+            for i in keywordItems:
+                keywords.append([titleId, i])
 
-        #parse people items for the 'people' table
-        cast = createList(getElement(jsonSoup,'actor'),'name') #this is a list
-        castId = createList(getElement(jsonSoup,'actor'),'url') #this is a list
-        director = createList(getElement(jsonSoup,'director'),'name') #this could be a list
-        directorId = createList(getElement(jsonSoup,'director'),'url') #this could be a list
+            #parse people items for the 'people' table
+            cast = createList(getElement(jsonSoup,'actor'),'name') #this is a list
+            castId = createList(getElement(jsonSoup,'actor'),'url') #this is a list
+            director = createList(getElement(jsonSoup,'director'),'name') #this could be a list
+            directorId = createList(getElement(jsonSoup,'director'),'url') #this could be a list
 
-        #add people items to the people list
-        addPerson(cast,castId,'actor')
-        addPerson(director,directorId,'director')
-        
-        #output status to the terminal
-        print('\r'+ str(round(movies.index(movie)/len(movies)*100)) + "% complete",end='')
+            #add people items to the people list
+            addPerson(cast,castId,'actor')
+            addPerson(director,directorId,'director')
+            
+            #output status to the terminal
+            print('\r'+ str(round(movies.index(movie)/len(movies)*100)) + "% complete",end='')
 
-        #10s time delay to avoid spamming request server
-        time.sleep(randint(5,10))
+            #10s time delay to avoid spamming request server
+            time.sleep(randint(5,10))
+        except Exception as e:
+            msg = '%s for %s' % (e, titleId)
+            logging.exception(msg,exc_info=True)
+            continue
 
 #write results to csv
 writeCsv('people.csv',people)
