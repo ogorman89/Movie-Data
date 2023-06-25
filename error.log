@@ -1,0 +1,5 @@
+ERROR:root:'contentRating' for tt13462900 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'

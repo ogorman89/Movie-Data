@@ -1,4 +1,10 @@
-{
+## this has one json dict for conveinent testing and debugging
+
+import logging
+
+logging.basicConfig(filename='error.log', filemode='w')
+
+jsonSoup = {
   "@context": "https://schema.org",
   "@type": "Movie",
   "url": "https://www.imdb.com/title/tt0468569/",
@@ -103,3 +109,36 @@
   ],
   "duration": "PT2H32M"
 }
+
+title = 'The Dark Knight'
+
+def getElement(jsonObj,prop,subProp=''):
+    '''
+    Accepts json in dict format an property
+      and optional sub-property, 
+      returns the matched jsonObj[prop][?subProp]
+    '''
+    try:
+      if subProp == '':
+        return jsonObj[prop]
+      else:
+        return jsonObj[prop][subProp]
+    except Exception as e:
+        props = prop + ' ' + subProp
+        msg = '%s for %s on %s' % (e, title, props)
+        logging.exception(msg,exc_info=True)
+        return 'Unknown'
+
+aggregateRating = getElement(jsonSoup,"aggregateRating","ratingValue")
+description = getElement(jsonSoup,"description")
+numRatings = getElement(jsonSoup,"aggregateRating","ratingCount")
+duration = getElement(jsonSoup,"duration")
+contentRating = getElement(jsonSoup,"contentRating")
+datePublished = getElement(jsonSoup,"datePublished")
+
+print(aggregateRating)
+print(description)
+print(numRatings)
+print(duration)
+print(contentRating)
+print(datePublished)
