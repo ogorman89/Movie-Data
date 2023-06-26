@@ -107,7 +107,12 @@ with open('box_office.csv',"r") as file:
 
             #convert duration string to minutes
             duration = duration.split('H')
-            duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+            if duration[1] == '':
+                #contains only hours
+                duration = int(duration[0].replace('PT',''))*60
+            else:
+                #contains hours and mins
+                duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
 
             #items for the 'genres' table
             genre = getElement(jsonSoup,'genre')
