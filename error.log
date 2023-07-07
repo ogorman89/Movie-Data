@@ -1,0 +1,265 @@
+ERROR:root:'contentRating' for tt13462900 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'contentRating' for tt13364790 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'keywords' for tt13364790 on keywords 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'keywords'
+ERROR:root:invalid literal for int() with base 10: '' for tt0974015
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:'contentRating' for tt16194408 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:invalid literal for int() with base 10: '' for tt0356910
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:'contentRating' for tt14557302 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'contentRating' for tt10147382 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'contentRating' for tt12363162 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'contentRating' for tt10218664 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:invalid literal for int() with base 10: '' for tt0993846
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:invalid literal for int() with base 10: '' for tt1628841
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:invalid literal for int() with base 10: '' for tt1392190
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:invalid literal for int() with base 10: '' for tt1010048
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:'contentRating' for tt8529186 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'keywords' for tt8529186 on keywords 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'keywords'
+ERROR:root:invalid literal for int() with base 10: '' for tt0104431
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:invalid literal for int() with base 10: '' for tt0120647
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:'contentRating' for tt7431894 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'contentRating' for tt6660238 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:invalid literal for int() with base 10: '' for tt7830888
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:'keywords' for tt4242158 on keywords 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'keywords'
+ERROR:root:'contentRating' for tt9597190 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:invalid literal for int() with base 10: '' for tt3104988
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:invalid literal for int() with base 10: '' for tt3079380
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:invalid literal for int() with base 10: '' for tt1024648
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:'contentRating' for tt5061814 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'contentRating' for tt9586294 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:invalid literal for int() with base 10: '' for tt1285016
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:'contentRating' for tt15465312 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:invalid literal for int() with base 10: '' for tt0369339
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:invalid literal for int() with base 10: '' for tt1230414
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:'contentRating' for tt16254308 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'keywords' for tt16254308 on keywords 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'keywords'
+ERROR:root:'contentRating' for tt12497408 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'keywords' for tt12497408 on keywords 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'keywords'
+ERROR:root:invalid literal for int() with base 10: '' for tt0190332
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:'contentRating' for tt15783462 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:invalid literal for int() with base 10: '' for tt8033592
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:'keywords' for tt8165192 on keywords 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'keywords'
+ERROR:root:'contentRating' for tt9597838 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:invalid literal for int() with base 10: '' for tt9597838
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:'contentRating' for tt8755316 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'contentRating' for tt13696296 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'contentRating' for tt11210032 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'contentRating' for tt8239806 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'contentRating' for tt3890264 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'contentRating' for tt7183578 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'contentRating' for tt4818250 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'contentRating' for tt5237980 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:'contentRating' for tt11448076 on contentRating 
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 55, in getElement
+    return jsonObj[prop]
+KeyError: 'contentRating'
+ERROR:root:invalid literal for int() with base 10: '' for tt11448076
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
+ERROR:root:invalid literal for int() with base 10: '' for tt3410834
+Traceback (most recent call last):
+  File "C:\Users\Watson\OneDrive\Code\Portfolio Projects\Movie Data\movie_details_spider.py", line 110, in <module>
+    duration = int(duration[0].replace('PT',''))*60 + int(duration[1].replace('M',''))
+ValueError: invalid literal for int() with base 10: ''
